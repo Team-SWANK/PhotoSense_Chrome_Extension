@@ -1,0 +1,6 @@
+{
+  "name": "PhotoSense-Extension",
+  "version": "0.0.1",
+  "description": "Censor your images with PhotoSense!",
+  "manifest_version": 2
+}
