@@ -1,5 +1,5 @@
 {
-  "name": "PhotoSense-Extension",
+  "name": "PhotoSense",
   "version": "0.0.1",
   "description": "Censor your images with PhotoSense!",
   "permissions": ["contextMenus"],
