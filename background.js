@@ -11,8 +11,9 @@ var contextSubMenuItem = {
   "contexts": ["image"]
 }
 
+chrome.contextMenus.create(contextMenuItem);
+
 chrome.runtime.onInstalled.addListener(function() {
-  chrome.contextMenus.create(contextMenuItem);
   chrome.contextMenus.create(contextSubMenuItem);
 });
 
