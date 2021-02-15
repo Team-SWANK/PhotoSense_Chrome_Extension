@@ -23,5 +23,7 @@ chrome.runtime.onInstalled.addListener(function() {
 
 // Setup listener
 chrome.contextMenus.onClicked.addListener(function() {
-  alert("This is a test!");
+  chrome.tabs.update({
+     url: "localhost:3000"
+   });
 });
