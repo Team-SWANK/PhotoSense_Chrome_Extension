@@ -22,8 +22,11 @@ chrome.runtime.onInstalled.addListener(function() {
 });
 
 // Setup listener
-chrome.contextMenus.onClicked.addListener(function() {
+chrome.contextMenus.onClicked.addListener(function(img) {
+  console.log("HELLO");
+  console.log(img);
+  console.log("HELLO2");
   chrome.tabs.update({
-     url: "localhost:3000"
+     url: "localhost:3000/url/" + img.srcUrl
    });
 });
