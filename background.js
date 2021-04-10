@@ -24,6 +24,6 @@ chrome.runtime.onInstalled.addListener(function() {
 // Setup listener
 chrome.contextMenus.onClicked.addListener(function(img) {
   chrome.tabs.update({
-     url: "localhost:3000/url/" + img.srcUrl
+     url: "52.53.187.171:3000/url/" + img.srcUrl
    });
 });
